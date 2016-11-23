@@ -131,7 +131,7 @@ Here are some more examples of JavaScript adding strings with one number:
 // => "51"
 ```
 
-Notice that if number preceeds the strings, JavaScript will perform the math on the strings before adding the result of the math to the String at the end:
+Note that JavaScript evaluates from left-to-right. In the following scenario, the two numbers are first summed, and then the result, `10`, is converted into a string and concatenated:
 
 ```javascript
 5 + 5 + "5"
